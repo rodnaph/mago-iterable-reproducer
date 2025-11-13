@@ -1,0 +1,23 @@
+{
+    "name": "rod/mago-generator-reproducer",
+    "type": "library",
+    "require": {
+        "carthage-software/mago": "1.0.0-rc.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rod\\MagoGeneratorReproducer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rhodri Pugh",
+            "email": "rod@owsy.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "carthage-software/mago": true
+        }
+    }
+}
